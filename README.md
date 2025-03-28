@@ -34,7 +34,7 @@ bf/2.1!fix-issue
 ```
 
 ```
-url -IL \
+curl -IL \
   -H "Accept: application/vnd.github+json" \
   -H "Authorization: Bearer ${GITHUB_API_TOKEN}" \
   -H "X-GitHub-Api-Version: 2022-11-28" \
@@ -42,7 +42,7 @@ url -IL \
 ```
 
 ```
-url -IL \
+curl -IL \
   -H "Accept: application/vnd.github+json" \
   -H "Authorization: Bearer ${GITHUB_API_TOKEN}" \
   -H "X-GitHub-Api-Version: 2022-11-28" \
@@ -50,7 +50,7 @@ url -IL \
 ```
 
 ```
-url -IL \
+curl -IL \
   -H "Accept: application/vnd.github+json" \
   -H "Authorization: Bearer ${GITHUB_API_TOKEN}" \
   -H "X-GitHub-Api-Version: 2022-11-28" \
@@ -58,7 +58,7 @@ url -IL \
 ```
 
 ```
-url -IL \
+curl -IL \
   -H "Accept: application/vnd.github+json" \
   -H "Authorization: Bearer ${GITHUB_API_TOKEN}" \
   -H "X-GitHub-Api-Version: 2022-11-28" \

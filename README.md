@@ -4,7 +4,9 @@
 export GITHUB_API_TOKEN=...
 ```
 
-# Verify repos/.../contents works with simpe branhes
+# Verify `/repos/{owner}/{repo}/contents/{path}` 
+
+It works with simpe branhes
 
 ```
 curl -IL \
